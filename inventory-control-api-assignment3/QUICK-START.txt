@@ -1,0 +1,22 @@
+ASSIGNMENT 3 - QUICK START (WINDOWS)
+
+1. Extract this ZIP.
+2. Open the folder inventory-control-api-assignment3 in VS Code.
+3. Make sure MongoDB Community Server is installed and running, or update MONGO_URI in .env to your MongoDB Atlas connection string.
+4. In the VS Code terminal, run:
+
+   npm install
+   npm run seed
+   npm start
+
+5. Open http://localhost:5000/ in your browser.
+
+Useful endpoints:
+GET  http://localhost:5000/api/items
+GET  http://localhost:5000/api/items/low-stock
+GET  http://localhost:5000/api/items/category-report
+
+To run the automated tests (the HTTP smoke tests do not require MongoDB):
+   npm test
+
+Note: The project requires Node.js 18+ and a running MongoDB instance for database-backed endpoints.
