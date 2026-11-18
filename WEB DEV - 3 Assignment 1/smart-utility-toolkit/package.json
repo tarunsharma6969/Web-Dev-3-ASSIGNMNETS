@@ -1,0 +1,15 @@
+{
+  "name": "smart-utility-toolkit",
+  "version": "1.0.0",
+  "description": "Node.js built-in modules lab assignment",
+  "main": "app.js",
+  "scripts": {
+    "calculator": "node calculator.js add 10 5",
+    "modules": "node app.js",
+    "files": "node fileManager.js",
+    "dice": "node dice.js 5",
+    "server": "node server.js",
+    "order": "node executionOrder.js"
+  },
+  "license": "ISC"
+}
